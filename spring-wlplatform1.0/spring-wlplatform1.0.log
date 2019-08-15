@@ -1,0 +1,1218 @@
+2019/08/14-08:59 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-08:59 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-08:59 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-08:59 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-08:59 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_212\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_212/bin/server;C:/Program Files/Java/jre1.8.0_212/bin;C:/Program Files/Java/jre1.8.0_212/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Program Files\Java\jdk1.8.0_212\jre\bin;D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;D:\protoc-3.8.0-win64\bin;C:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.3 & MySQL Utilities 1.5.3 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.3 & MySQL Utilities 1.5.3 1.5\Doctrine extensions for PHP\;C:\Users\m\AppData\Local\Microsoft\WindowsApps;;d:\Program Files\Docker Toolbox;C:\Users\m\AppData\Roaming\npm;d:\Program Files\JetBrains\WebStorm 2019.1.3\bin;;C:\Users\m\Desktop;;.]
+2019/08/14-08:59 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 8661 ms
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-08:59 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-08:59 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-08:59 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 18.623 seconds (JVM running for 21.734)
+2019/08/14-09:04 [Thread-9] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:04 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:04 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:04 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:04 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:04 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 323 ms
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:04 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:04 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.55 seconds (JVM running for 333.022)
+2019/08/14-09:04 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:18 [Thread-13] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:18 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:18 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:18 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:18 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:18 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 304 ms
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:18 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:18 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.515 seconds (JVM running for 1159.553)
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:18 [Thread-21] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:18 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:18 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:18 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:18 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:18 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 286 ms
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:18 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:18 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.493 seconds (JVM running for 1180.066)
+2019/08/14-09:18 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:20 [Thread-29] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 279 ms
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:20 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.476 seconds (JVM running for 1282.96)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:20 [Thread-37] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 267 ms
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:20 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.46 seconds (JVM running for 1289.145)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:20 [Thread-45] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:20 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 280 ms
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:20 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:20 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.464 seconds (JVM running for 1322.539)
+2019/08/14-09:20 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:21 [Thread-53] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:21 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:21 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:21 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:21 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:21 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 260 ms
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:21 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:21 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.451 seconds (JVM running for 1326.709)
+2019/08/14-09:21 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:22 [Thread-61] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:22 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:22 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:22 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:22 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:22 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 271 ms
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:22 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:22 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.462 seconds (JVM running for 1434.774)
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:22 [Thread-69] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:22 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:22 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:22 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:22 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:22 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 267 ms
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:22 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:22 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.452 seconds (JVM running for 1437.985)
+2019/08/14-09:22 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:23 [Thread-77] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:23 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:23 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:23 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:23 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 271 ms
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:23 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:23 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.456 seconds (JVM running for 1458.545)
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:23 [Thread-85] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:23 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:23 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:23 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:23 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 265 ms
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:23 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:23 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.446 seconds (JVM running for 1488.16)
+2019/08/14-09:23 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:27 [Thread-93] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:27 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:27 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:27 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:27 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:27 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 304 ms
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:27 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:27 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.49 seconds (JVM running for 1741.732)
+2019/08/14-09:27 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:28 [Thread-101] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:28 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:28 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:28 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:28 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 266 ms
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:28 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:28 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.454 seconds (JVM running for 1761.574)
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:28 [Thread-109] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:28 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:28 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:28 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:28 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 255 ms
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:28 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:28 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.438 seconds (JVM running for 1769.001)
+2019/08/14-09:28 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:29 [Thread-117] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:29 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:29 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:29 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:29 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:29 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 298 ms
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:29 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:29 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.508 seconds (JVM running for 1858.08)
+2019/08/14-09:29 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:30 [Thread-125] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:30 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:30 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:30 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:30 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:30 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 283 ms
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:30 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:30 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.467 seconds (JVM running for 1870.762)
+2019/08/14-09:30 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:32 [Thread-133] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:32 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:32 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:32 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:32 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:32 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 276 ms
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:32 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:32 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.46 seconds (JVM running for 2007.067)
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:32 [Thread-141] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:32 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:32 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:32 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:32 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:32 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 278 ms
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:32 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:32 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.479 seconds (JVM running for 2020.745)
+2019/08/14-09:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-09:38 [Thread-149] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:38 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-09:38 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-09:38 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-09:38 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-09:38 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 272 ms
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-09:38 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-09:38 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.447 seconds (JVM running for 2386.883)
+2019/08/14-09:38 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-19:02 [Thread-157] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-19:02 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 3864 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-19:02 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b1a69223] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-19:02 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-19:02 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-19:02 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 559 ms
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-19:02 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-19:02 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.916 seconds (JVM running for 36188.631)
+2019/08/14-19:02 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-19:02 [RMI TCP Connection(117)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin- Application shutdown requested.
+2019/08/14-19:02 [RMI TCP Connection(117)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:11 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:11 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 83ms. Found 0 repository interfaces.
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:11 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:11 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:11 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_212\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_212/bin/server;C:/Program Files/Java/jre1.8.0_212/bin;C:/Program Files/Java/jre1.8.0_212/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Program Files\Java\jdk1.8.0_212\jre\bin;D:\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;D:\protoc-3.8.0-win64\bin;C:\Program Files\Git\cmd;D:\Program Files\nodejs\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.3 & MySQL Utilities 1.5.3 1.5\;C:\Program Files (x86)\MySQL\MySQL Fabric 1.5.3 & MySQL Utilities 1.5.3 1.5\Doctrine extensions for PHP\;C:\Users\m\AppData\Local\Microsoft\WindowsApps;;d:\Program Files\Docker Toolbox;C:\Users\m\AppData\Roaming\npm;d:\Program Files\JetBrains\WebStorm 2019.1.3\bin;;C:\Users\m\Desktop;;.]
+2019/08/14-22:11 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 12467 ms
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:11 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:11 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:11 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 22.876 seconds (JVM running for 25.609)
+2019/08/14-22:12 [Thread-9] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:12 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:12 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:12 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:12 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:12 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 287 ms
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:12 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:12 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.493 seconds (JVM running for 67.1)
+2019/08/14-22:12 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:14 [Thread-13] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:14 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:14 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:14 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:14 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:14 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 278 ms
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:14 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:14 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.463 seconds (JVM running for 167.277)
+2019/08/14-22:14 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:16 [http-nio-8092-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/08/14-22:16 [http-nio-8092-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/08/14-22:16 [http-nio-8092-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 5 ms
+2019/08/14-22:16 [http-nio-8092-exec-1] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/login]
+url: [http://192.168.2.100:8092/login]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@7891d8e1]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:16 [http-nio-8092-exec-2] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/login]
+url: [http://192.168.2.100:8092/login]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@7891d8e1]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:16 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- login------admin---admin----0
+2019/08/14-22:16 [http-nio-8092-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/08/14-22:16 [http-nio-8092-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2019/08/14-22:16 [http-nio-8092-exec-2] DEBUG com.example.wlplatform.mapper.UserInfoMapper.selectByUserName- ==>  Preparing: select id, name, passwd, group_id from user_info where name = ? 
+2019/08/14-22:16 [http-nio-8092-exec-2] DEBUG com.example.wlplatform.mapper.UserInfoMapper.selectByUserName- ==> Parameters: admin(String)
+2019/08/14-22:16 [http-nio-8092-exec-2] DEBUG com.example.wlplatform.mapper.UserInfoMapper.selectByUserName- <==      Total: 1
+2019/08/14-22:16 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- error password1admin
+2019/08/14-22:16 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- error password2admin
+2019/08/14-22:16 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- success password
+2019/08/14-22:16 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- success password33333
+2019/08/14-22:16 [http-nio-8092-exec-3] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getMachineInfo]
+url: [http://192.168.2.100:8092/getMachineInfo]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@7891d8e1]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:16 [http-nio-8092-exec-4] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getFunctionList]
+url: [http://192.168.2.100:8092/getFunctionList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@736e6bcb]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:16 [http-nio-8092-exec-5] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getDocmentList]
+url: [http://192.168.2.100:8092/getDocmentList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@10dd3b75]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:16 [http-nio-8092-exec-6] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getMachineInfo]
+url: [http://192.168.2.100:8092/getMachineInfo]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@7891d8e1]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:16 [http-nio-8092-exec-6] INFO  com.example.wlplatform.controller.CommController- getMachineInfo------com.example.wlplatform.entity.UserInfo@7207396a
+2019/08/14-22:16 [http-nio-8092-exec-6] INFO  com.example.wlplatform.controller.CommController- getMachineInfo------admin---null----0
+2019/08/14-22:16 [http-nio-8092-exec-6] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- ==>  Preparing: select id, ip, port, user, passwd, machine_name, env_type, sa_conf, tux_conf, bip_conf, group_id, pro_name, protocol from machine_info where group_id = ? 
+2019/08/14-22:16 [http-nio-8092-exec-6] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- ==> Parameters: 0(Integer)
+2019/08/14-22:16 [http-nio-8092-exec-7] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getDocmentList]
+url: [http://192.168.2.100:8092/getDocmentList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@736e6bcb]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:16 [http-nio-8092-exec-8] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getFunctionList]
+url: [http://192.168.2.100:8092/getFunctionList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@10dd3b75]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:16 [http-nio-8092-exec-7] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------com.example.wlplatform.entity.UserInfo@1d158665
+2019/08/14-22:16 [http-nio-8092-exec-8] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------com.example.wlplatform.entity.UserInfo@3a07048b
+2019/08/14-22:16 [http-nio-8092-exec-8] INFO  com.example.wlplatform.controller.CommController- getFunctionList------null---admin----0
+2019/08/14-22:16 [http-nio-8092-exec-6] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- <==      Total: 5
+2019/08/14-22:16 [http-nio-8092-exec-8] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- ==>  Preparing: select * from function_info 
+2019/08/14-22:16 [http-nio-8092-exec-6] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-22:16 [http-nio-8092-exec-8] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- ==> Parameters: 
+2019/08/14-22:16 [http-nio-8092-exec-8] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- <==      Total: 5
+2019/08/14-22:16 [http-nio-8092-exec-8] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-22:16 [http-nio-8092-exec-7] INFO  com.example.wlplatform.utils.RemoteCommandUtil- =========登录成功=========ch.ethz.ssh2.Connection@3f476219
+2019/08/14-22:16 [http-nio-8092-exec-7] INFO  com.example.wlplatform.utils.RemoteCommandUtil- 执行命令成功,链接conn:ch.ethz.ssh2.Connection@3f476219,执行的命令：ls -rlt /home/ap/template/docment|awk '{print $9}'
+2019/08/14-22:16 [http-nio-8092-exec-7] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------
+读写分离.jpg
+互联网安全防护架构.jpeg
+架构的集成.jpg
+淘宝技术架构.jpg
+treemapper.bak
+项目.mp
+P5框架介绍.xlsx
+package-lock.json
+package.json
+yarn.lock
+111111.pptx
+tcp1.py.txt
+P5函数列表.docx
+代收付P5开发指引.docx
+中台的理解.ppt
+C框架安装实施指引.pptx
+lua-5.3.1
+111.pptx
+NettyClient.java
+NettyClientHandler.java
+红书分享.pptx
+
+2019/08/14-22:16 [http-nio-8092-exec-7] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-22:18 [http-nio-8092-exec-3] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getMachineInfo]
+url: [http://192.168.2.100:8092/getMachineInfo]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@736e6bcb]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:18 [http-nio-8092-exec-5] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getFunctionList]
+url: [http://192.168.2.100:8092/getFunctionList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@10dd3b75]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:18 [http-nio-8092-exec-4] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getDocmentList]
+url: [http://192.168.2.100:8092/getDocmentList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@7891d8e1]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:18 [http-nio-8092-exec-3] INFO  com.example.wlplatform.controller.CommController- getMachineInfo------com.example.wlplatform.entity.UserInfo@471f02d4
+2019/08/14-22:18 [http-nio-8092-exec-5] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------com.example.wlplatform.entity.UserInfo@51e0314e
+2019/08/14-22:18 [http-nio-8092-exec-4] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------com.example.wlplatform.entity.UserInfo@325361f0
+2019/08/14-22:18 [http-nio-8092-exec-3] INFO  com.example.wlplatform.controller.CommController- getMachineInfo------admin---null----0
+2019/08/14-22:18 [http-nio-8092-exec-5] INFO  com.example.wlplatform.controller.CommController- getFunctionList------null---admin----0
+2019/08/14-22:18 [http-nio-8092-exec-5] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- ==>  Preparing: select * from function_info 
+2019/08/14-22:18 [http-nio-8092-exec-3] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- ==>  Preparing: select id, ip, port, user, passwd, machine_name, env_type, sa_conf, tux_conf, bip_conf, group_id, pro_name, protocol from machine_info where group_id = ? 
+2019/08/14-22:18 [http-nio-8092-exec-3] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- ==> Parameters: 0(Integer)
+2019/08/14-22:18 [http-nio-8092-exec-5] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- ==> Parameters: 
+2019/08/14-22:18 [http-nio-8092-exec-5] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- <==      Total: 5
+2019/08/14-22:18 [http-nio-8092-exec-5] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-22:18 [http-nio-8092-exec-3] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- <==      Total: 5
+2019/08/14-22:18 [http-nio-8092-exec-3] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-22:18 [http-nio-8092-exec-4] INFO  com.example.wlplatform.utils.RemoteCommandUtil- =========登录成功=========ch.ethz.ssh2.Connection@31b644e
+2019/08/14-22:18 [http-nio-8092-exec-4] INFO  com.example.wlplatform.utils.RemoteCommandUtil- 执行命令成功,链接conn:ch.ethz.ssh2.Connection@31b644e,执行的命令：ls -rlt /home/ap/template/docment|awk '{print $9}'
+2019/08/14-22:18 [http-nio-8092-exec-4] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------
+读写分离.jpg
+互联网安全防护架构.jpeg
+架构的集成.jpg
+淘宝技术架构.jpg
+treemapper.bak
+项目.mp
+P5框架介绍.xlsx
+package-lock.json
+package.json
+yarn.lock
+111111.pptx
+tcp1.py.txt
+P5函数列表.docx
+代收付P5开发指引.docx
+中台的理解.ppt
+C框架安装实施指引.pptx
+lua-5.3.1
+111.pptx
+NettyClient.java
+NettyClientHandler.java
+红书分享.pptx
+
+2019/08/14-22:18 [http-nio-8092-exec-4] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-22:22 [http-nio-8092-exec-10] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/compile]
+url: [http://192.168.2.100:8092/compile]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@7891d8e1]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/compile]
+url: [http://192.168.2.100:8092/compile]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@7891d8e1]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.controller.CommController- compile-----com.example.wlplatform.entity.MachineInfo@1bd6ef29
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.RemoteCommandUtil- =========登录成功=========ch.ethz.ssh2.Connection@15111223
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.RemoteCommandUtil- 得到标准输出为空,链接conn:ch.ethz.ssh2.Connection@15111223,执行的命令：mkdir  src bin lib
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.CompileService- Prepare result =mkdir: cannot create directory ‘src’: File exists
+mkdir: cannot create directory ‘bin’: File exists
+mkdir: cannot create directory ‘lib’: File exists
+
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.CompileService- basePackageD:/protocol/HTTP_CLIENT.tar--remotePath/home/ap//eablink/src/HTTP_CLIENT.tar
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.SFTPUtil- Connecting to 118.89.249.100:22
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.SFTPUtil- Connected !
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.SFTPUtil- Upload successfull.
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.SFTPUtil- Upload successfull.
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.SFTPUtil- Upload successfull.
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.SFTPUtil- Upload successfull.
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.BashProfileTemplateService- freemarker enter
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.BashProfileTemplateService- freemarker model/home/ap/sa/home/ap/p5/bip/home/mw/tuxedo/tuxedo10.3
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.BashProfileTemplateService- freemarker configuration is 111
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.BashProfileTemplateService- freemarker processTemplateIntoString
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.DeployEnvTemplateService- freemarker enter
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.MakefileTemplateService- freemarker enter
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.RemoteCommandUtil- =========登录成功=========ch.ethz.ssh2.Connection@2d303ea0
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.utils.RemoteCommandUtil- 得到标准输出为空,链接conn:ch.ethz.ssh2.Connection@2d303ea0,执行的命令：sh /home/ap/eablink/src/deploy_env.sh
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.service.CompileService- result =/home/ap/eablink/src/deploy_env.sh: line 8: $'\r': command not found
+/home/ap/eablink/src/deploy_env.sh: line 10: $'\r': command not found
+/home/ap/eablink/src/deploy_env.sh: line 11: syntax error near unexpected token `$'{\r''
+/home/ap/eablink/src/deploy_env.sh: line 11: `function check_dir(){
+'
+
+2019/08/14-22:22 [http-nio-8092-exec-9] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: You need to establish a connection first.] with root cause
+java.lang.IllegalStateException: You need to establish a connection first.
+	at ch.ethz.ssh2.Connection.checkConnection(Connection.java:1318) ~[ganymed-ssh2-262.jar:262]
+	at ch.ethz.ssh2.Connection.openSession(Connection.java:1045) ~[ganymed-ssh2-262.jar:262]
+	at com.example.wlplatform.utils.RemoteCommandUtil.execute(RemoteCommandUtil.java:59) ~[classes/:na]
+	at com.example.wlplatform.service.CompileService.Compile(CompileService.java:175) ~[classes/:na]
+	at com.example.wlplatform.controller.CommController.compile(CommController.java:208) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_212]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.4.RELEASE.jar:5.1.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) ~[tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [na:1.8.0_212]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [na:1.8.0_212]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.14.jar:9.0.14]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_212]
+2019/08/14-22:22 [http-nio-8092-exec-9] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/error]
+url: [http://192.168.2.100:8092/error]
+para: [null]
+srcIp: [org.apache.catalina.core.ApplicationHttpRequest@6343d7b5]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-22:25 [Thread-21] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:25 [Thread-21] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+2019/08/14-22:25 [Thread-21] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+2019/08/14-22:25 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:25 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:25 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:25 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:25 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 266 ms
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:25 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:25 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.449 seconds (JVM running for 860.169)
+2019/08/14-22:25 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:26 [Thread-40] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:26 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:26 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:26 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:26 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:26 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 250 ms
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:26 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:26 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.423 seconds (JVM running for 880.557)
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:26 [Thread-48] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:26 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:26 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:26 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:26 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:26 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 271 ms
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:26 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:26 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.451 seconds (JVM running for 918.134)
+2019/08/14-22:26 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:29 [Thread-56] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:29 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:29 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:29 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:29 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:29 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 266 ms
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:29 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:29 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.443 seconds (JVM running for 1096.977)
+2019/08/14-22:29 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:32 [Thread-64] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:32 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:32 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:32 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:32 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:32 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 265 ms
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:32 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:32 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.447 seconds (JVM running for 1273.794)
+2019/08/14-22:32 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:33 [Thread-72] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:33 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:33 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:33 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:33 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:33 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 256 ms
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:33 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:33 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.425 seconds (JVM running for 1337.606)
+2019/08/14-22:33 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:34 [Thread-80] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:34 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:34 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:34 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:34 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:34 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 256 ms
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:34 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:34 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.425 seconds (JVM running for 1361.936)
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:34 [Thread-88] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:34 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:34 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:34 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:34 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:34 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 248 ms
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:34 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:34 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.413 seconds (JVM running for 1386.25)
+2019/08/14-22:34 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:35 [Thread-96] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:35 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:35 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:35 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:35 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:35 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 252 ms
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:35 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:35 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.415 seconds (JVM running for 1441.858)
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:35 [Thread-104] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:35 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:35 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:35 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:35 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:35 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 240 ms
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:35 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:35 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.402 seconds (JVM running for 1467.178)
+2019/08/14-22:35 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:36 [Thread-112] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:36 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:36 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:36 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:36 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:36 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 247 ms
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:36 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:36 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.41 seconds (JVM running for 1483.403)
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-22:36 [Thread-120] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:36 [restartedMain] INFO  com.example.wlplatform.Application- Starting Application on LAPTOP-BV0HLTIJ with PID 5136 (D:\Users\m\eclipse-workspace\spring-wlplatform1.0\target\classes started by m in D:\Users\m\eclipse-workspace\spring-wlplatform1.0)
+2019/08/14-22:36 [restartedMain] INFO  com.example.wlplatform.Application- No active profile set, falling back to default profiles: default
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ac6ba16b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8092 (http)
+2019/08/14-22:36 [restartedMain] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/08/14-22:36 [restartedMain] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019/08/14-22:36 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 259 ms
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/08/14-22:36 [restartedMain] WARN  org.springframework.boot.autoconfigure.freemarker.FreeMarkerAutoConfiguration- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer- LiveReload server is running on port 35729
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8092 (http) with context path ''
+2019/08/14-22:36 [restartedMain] INFO  com.example.wlplatform.Application- Started Application in 0.427 seconds (JVM running for 1517.85)
+2019/08/14-22:36 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener- Condition evaluation unchanged
+2019/08/14-23:08 [http-nio-8092-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/08/14-23:08 [http-nio-8092-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/08/14-23:08 [http-nio-8092-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 2 ms
+2019/08/14-23:08 [http-nio-8092-exec-1] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/login]
+url: [http://192.168.2.100:8092/login]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@39a4962d]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-23:08 [http-nio-8092-exec-2] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/login]
+url: [http://192.168.2.100:8092/login]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@39a4962d]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-23:08 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- login------admin---admin----0
+2019/08/14-23:08 [http-nio-8092-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-2 - Starting...
+2019/08/14-23:08 [http-nio-8092-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-2 - Start completed.
+2019/08/14-23:08 [http-nio-8092-exec-2] DEBUG com.example.wlplatform.mapper.UserInfoMapper.selectByUserName- ==>  Preparing: select id, name, passwd, group_id from user_info where name = ? 
+2019/08/14-23:08 [http-nio-8092-exec-2] DEBUG com.example.wlplatform.mapper.UserInfoMapper.selectByUserName- ==> Parameters: admin(String)
+2019/08/14-23:08 [http-nio-8092-exec-2] DEBUG com.example.wlplatform.mapper.UserInfoMapper.selectByUserName- <==      Total: 1
+2019/08/14-23:08 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- error password1admin
+2019/08/14-23:08 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- error password2admin
+2019/08/14-23:08 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- success password
+2019/08/14-23:08 [http-nio-8092-exec-2] INFO  com.example.wlplatform.controller.CommController- success password33333
+2019/08/14-23:08 [http-nio-8092-exec-3] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getMachineInfo]
+url: [http://192.168.2.100:8092/getMachineInfo]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@39a4962d]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-23:08 [http-nio-8092-exec-6] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getDocmentList]
+url: [http://192.168.2.100:8092/getDocmentList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@5f994d18]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-23:08 [http-nio-8092-exec-5] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getFunctionList]
+url: [http://192.168.2.100:8092/getFunctionList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@67a602d3]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [OPTIONS]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-23:08 [http-nio-8092-exec-4] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getMachineInfo]
+url: [http://192.168.2.100:8092/getMachineInfo]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@67a602d3]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-23:08 [http-nio-8092-exec-8] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getDocmentList]
+url: [http://192.168.2.100:8092/getDocmentList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@39a4962d]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-23:08 [http-nio-8092-exec-7] INFO  com.example.wlplatform.conf.NetInterceptor- preHandle begin:uri: [/getFunctionList]
+url: [http://192.168.2.100:8092/getFunctionList]
+para: [null]
+srcIp: [org.apache.catalina.connector.RequestFacade@5f994d18]
+srcHostName: [192.168.2.100]
+srcUser: [null]
+requestMethod: [POST]
+requestPath: [null]
+requestParameter: [null]
+
+2019/08/14-23:08 [http-nio-8092-exec-4] INFO  com.example.wlplatform.controller.CommController- getMachineInfo------com.example.wlplatform.entity.UserInfo@67ff348
+2019/08/14-23:08 [http-nio-8092-exec-4] INFO  com.example.wlplatform.controller.CommController- getMachineInfo------admin---null----0
+2019/08/14-23:08 [http-nio-8092-exec-8] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------com.example.wlplatform.entity.UserInfo@1deac87d
+2019/08/14-23:08 [http-nio-8092-exec-7] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------com.example.wlplatform.entity.UserInfo@231be62c
+2019/08/14-23:08 [http-nio-8092-exec-7] INFO  com.example.wlplatform.controller.CommController- getFunctionList------null---admin----0
+2019/08/14-23:08 [http-nio-8092-exec-4] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- ==>  Preparing: select id, ip, port, user, passwd, machine_name, env_type, sa_conf, tux_conf, bip_conf, group_id, pro_name, protocol from machine_info where group_id = ? 
+2019/08/14-23:08 [http-nio-8092-exec-4] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- ==> Parameters: 0(Integer)
+2019/08/14-23:08 [http-nio-8092-exec-4] DEBUG com.example.wlplatform.mapper.MachineInfoMapper.selectByGroupId- <==      Total: 5
+2019/08/14-23:08 [http-nio-8092-exec-7] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- ==>  Preparing: select * from function_info 
+2019/08/14-23:08 [http-nio-8092-exec-4] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-23:08 [http-nio-8092-exec-7] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- ==> Parameters: 
+2019/08/14-23:08 [http-nio-8092-exec-7] DEBUG com.example.wlplatform.mapper.FunctionInfoMapper.selectAll- <==      Total: 5
+2019/08/14-23:08 [http-nio-8092-exec-7] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-23:08 [http-nio-8092-exec-8] INFO  com.example.wlplatform.utils.RemoteCommandUtil- =========登录成功=========ch.ethz.ssh2.Connection@132d25b0
+2019/08/14-23:08 [http-nio-8092-exec-8] INFO  com.example.wlplatform.utils.RemoteCommandUtil- 执行命令成功,链接conn:ch.ethz.ssh2.Connection@132d25b0,执行的命令：ls -rlt /home/ap/template/docment|awk '{print $9}'
+2019/08/14-23:08 [http-nio-8092-exec-8] INFO  com.example.wlplatform.controller.CommController- getFunctionList-------
+读写分离.jpg
+互联网安全防护架构.jpeg
+架构的集成.jpg
+淘宝技术架构.jpg
+treemapper.bak
+项目.mp
+P5框架介绍.xlsx
+package-lock.json
+package.json
+yarn.lock
+111111.pptx
+tcp1.py.txt
+P5函数列表.docx
+代收付P5开发指引.docx
+中台的理解.ppt
+C框架安装实施指引.pptx
+lua-5.3.1
+111.pptx
+NettyClient.java
+NettyClientHandler.java
+红书分享.pptx
+
+2019/08/14-23:08 [http-nio-8092-exec-8] INFO  com.example.wlplatform.controller.CommController- success EnvType
+2019/08/14-23:09 [RMI TCP Connection(61)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin- Application shutdown requested.
+2019/08/14-23:09 [RMI TCP Connection(61)-127.0.0.1] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/08/14-23:09 [RMI TCP Connection(61)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-2 - Shutdown initiated...
+2019/08/14-23:09 [RMI TCP Connection(61)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-2 - Shutdown completed.

@@ -1,0 +1,52 @@
+{"properties": [
+  {
+    "name": "systemParams.libraryIp",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.libraryIp'"
+  },
+  {
+    "name": "systemParams.libraryPort",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.libraryPort'"
+  },
+  {
+    "name": "systemParams.libraryUser",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.libraryUser'"
+  },
+  {
+    "name": "systemParams.libraryPassWord",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.libraryPassWord'"
+  },
+  {
+    "name": "systemParams.libraryBasePath",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.libraryBasePath'"
+  },
+  {
+    "name": "systemParams.compileBasePath",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.compileBasePath'"
+  },
+  {
+    "name": "systemParams.localPath",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.localPath'"
+  },
+  {
+    "name": "systemParams.libraryDocPath",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.libraryDocPath'"
+  },
+  {
+    "name": "systemParams.getDocCmd",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.getDocCmd'"
+  },
+  {
+    "name": "systemParams.getDocListCmd",
+    "type": "java.lang.String",
+    "description": "A description for 'systemParams.getDocListCmd'"
+  }
+]}
